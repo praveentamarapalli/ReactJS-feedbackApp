@@ -1,0 +1,56 @@
+/* Write your CSS code here. */
+.main-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 550px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.img {
+  width: 80px;
+  text-align: center;
+}
